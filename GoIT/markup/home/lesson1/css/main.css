@@ -1,1 +1,63 @@
+body {
+	border-bottom: 2px solid black;
+	background: #EEEEEE;
+	font-family: Times
+}
 
+.content {
+	width: 512px;
+	background: #FFF;
+	box-shadow: 0 0 0 2px #D3D3D3
+	margin: 0 auto 45px auto;
+	padding: 50px;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 24px;
+}
+
+img {
+	width: 150px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.myphoto {
+	display: block;
+	text-align: center;
+
+}
+
+.content div {
+	border-bottom: 1px solid black;
+
+}
+
+li {
+	padding: 5px;
+
+}
+
+
+p, ul, {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 400;
+	padding-left: 55px;
+}
+
+ul {
+	margin-left: 20px;
+
+}
+
+.contactinfo div{
+	border-bottom: none;
+
+}
+
+.additional div{
+	border-bottom: none;
+}
