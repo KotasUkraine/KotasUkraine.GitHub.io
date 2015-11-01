@@ -1,7 +1,9 @@
 body {
-	border-bottom: 2px solid black;
 	background: #EEEEEE;
 	font-family: Times
+	left: 50%;
+	margin-left: 25%;
+
 }
 
 .content {
@@ -10,7 +12,7 @@ body {
 	box-shadow: 0 0 0 2px #D3D3D3
 	margin: 0 auto 45px auto;
 	padding: 50px;
-
+  border-bottom: 2px solid black;
 }
 
 h1 {
