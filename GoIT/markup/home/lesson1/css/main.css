@@ -4,7 +4,7 @@ body {
 
 }
 
-.content {
+.main-content {
 	width: 512px;
 	background: #FFF;
 	box-shadow: 0 0 0 2px #D3D3D3;
@@ -24,13 +24,13 @@ img {
 	-webkit-border-radius:5px;
 }
 
-.myphoto {
+.my-photo {
 	display: block;
 	text-align: center;
 
 }
 
-.content div {
+.main-content div {
 	border-bottom: 1px solid black;
 
 }
@@ -54,11 +54,11 @@ ul {
 
 }
 
-.contactinfo div{
+.contact-info div{
 	border-bottom: none;
 
 }
 
-.additional div{
+.additional-info div{
 	border-bottom: none;
 }
