@@ -23,11 +23,10 @@ body {
 
 .logo {
 	width: 145px;
-	height: 40px;
 	padding: 0 0 50px;
 }
 
-.nav {
+.menu {
 	background-image: linear-gradient(0deg, rgb(94, 94, 94) 0%,rgb(67, 67, 67) 100%);
 	width: 100%;
 	height: 40px;
@@ -36,16 +35,19 @@ body {
 
 .top_menu li {
 	display: inline-block;
+	line-height: 40px;
+	font-family: sans-serif;
+	vertical-align: baseline;
+	width: 100px;
 }
 
 .top_menu li a {
-	color: #FFF;
 	display: inline-block;
-	font: 13px/40px,'Open Sans' sans-serif;
-	padding: 13px 24px;
+	color: #FFF;
+	font-size: 15px;
 	text-decoration: none;
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
-	width: 82px;
+	width: 100px;
 	text-align: center;
 }
 
@@ -53,7 +55,6 @@ body {
 	background: #333;
 	border-right: 1px solid #999;
 	border-left: 1px solid #999;
-
 }
 
 .top_menu li.active {
@@ -85,24 +86,23 @@ container {
 .side_menu li a {
 	display: block;
 	width: 240px;
-	height: 30px;
-	padding: 15px 2px 2px 15px;
-	font: 13px/30px, 'Open Sans', sans-serif;
+	line-height: 40px;
+	font-size: 13px;
 	color: #656363;
 	text-decoration: none;
+	padding-left: 12px;
 
 }
 
 .side_menu li a:hover {
 	background: #f9f9f9;
-	padding-left: 50px;
 	color: #2c2c2c;
-
+	padding-left: 24px;
 }
 
 
 
-.mainimage {
+.main_image {
 	width: 680px;
 	border: 1px solid #ccc;
 	text-align: center;
@@ -113,9 +113,20 @@ container {
 article p {
 	width: 630px;
 	padding: 40px 25px 40px 25px;
-	font: 13px/20px 'Open Sans',sans-serif;
+	font-size: 13px;
+	line-height: 21px;
 	overflow: hidden;
 	color: #333;
+	float: right;
+	text-align: justify;
+}
+
+article::after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 
 footer {
@@ -125,7 +136,7 @@ footer {
 
 .bottom_menu {
 	float: left;
-	font-size: 16px;
+	font-size: 13px;
 	line-height: 40px;
 	vertical-align: 0px;
 
@@ -138,7 +149,6 @@ footer {
 
 .bottom_menu li a {
 	color: #333;
-	font: 16px/40px, 'Open Sans', sans-serif;
 	padding: 12px 24px;
 	text-decoration: none;
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
@@ -158,7 +168,7 @@ footer {
 
 .copyright p {
 	color: #333;
-	font: 16px/40px, 'Open Sans', sans-serif;
+	font-size: 13px;
 	padding: 12px 24px;
 	text-decoration: none;
 	text-align: left;
