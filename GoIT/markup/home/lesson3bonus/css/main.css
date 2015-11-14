@@ -1,0 +1,64 @@
+body {
+  background: #000 url("../img/image_background.png") no-repeat center center;
+  color: #e6e6e6;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 60px 70px;
+  width: 875px;
+}
+
+header {
+
+}
+.contact_info {
+  float: right;
+  padding-right: 35px;
+  padding-top: 78px;
+}
+
+.contact_info p{
+  font-family: Tahoma, sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.content {
+  color: #e6e6e6;
+  padding-bottom: 100px;
+  }
+
+.row {
+  font-size: 0px;
+
+}
+.row figure {
+  display: inline-block;
+  padding: 0 12px 65px 12px;
+}
+
+.row figure img {
+  border: 3px solid #7c7c7c;
+  border-radius: 1px;
+  transition: all 0.5s ease-in-out;
+}
+
+.row figcaption {
+  font-size: 15px;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  line-height: 20px;
+}
+
+
+footer {
+  padding-top: 1px;
+
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
