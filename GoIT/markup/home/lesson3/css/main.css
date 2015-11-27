@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Open Sans';
-  src: url("./fonts/Regular/OpenSans-Regular.eot?v=1.1.0");
-  src: url("./fonts/Regular/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("./fonts/Regular/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("./fonts/Regular/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("./fonts/Regular/OpenSans-Regular.svg?v=1.1.0#OpenSansBold") format("svg");
+  src: url("../font/OpenSans-Regular.eot");
+  src: url("../font/OpenSans-Regular.eot") format("embedded-opentype"), url("../font/OpenSans-Regular.woff") format("woff"), url("../font/OpenSans-Regular.ttf") format("truetype"), url("../font/OpenSans-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -173,6 +173,7 @@ footer {
 
 .copyright {
 	float: right;
+	font-family: sans-serif;
 
 }
 
